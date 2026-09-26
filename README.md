@@ -1,8 +1,8 @@
 # Atomity — Cloud Cost Explorer
 
-A focused cloud cost analytics interface built for the **Atomity Frontend Engineering Challenge**.
+A focused cloud cost analytics interface built for the Atomity Frontend Engineering Challenge.
 
-The goal is to make infrastructure spending easier to understand by allowing users to move from a high-level **cluster view** down to individual **namespaces** and **pods**, while keeping the interface responsive, accessible, and visually focused.
+The goal is to make infrastructure spending easier to understand by allowing users to move from a high-level cluster view down to individual namespaces and pods, while keeping the interface responsive, accessible, and visually focused.
 
 **Challenge:** Frontend Intern — Atomity
 **Option:** A — Cloud Cost Analytics
@@ -12,9 +12,9 @@ The goal is to make infrastructure spending easier to understand by allowing use
 
 ## Live Demo
 
-**Live Demo:** [Add your deployed URL here]
+**Live Demo:** https://atomity-frontend-challenge-psi.vercel.app/
 
-**Repository:** https://github.com/amirkm07/atomity-frontend-challenge-test
+**Repository:** https://github.com/amirkm07/atomity-frontend-challenge
 
 ---
 
@@ -24,7 +24,7 @@ Cloud infrastructure costs can become difficult to understand once spending is d
 
 This project explores a simple question:
 
-> **Where exactly is my infrastructure money being spent?**
+> Where exactly is my infrastructure money being spent?
 
 The interface starts with an overview of cloud cost and allows the user to progressively drill down:
 
@@ -136,7 +136,7 @@ The interface currently uses:
 
 The main principle is:
 
-> **Motion should help explain what changed, not compete with the data.**
+> Motion should help explain what changed, not compete with the data.
 
 For example, when moving from clusters to namespaces, the content updates while the surrounding dashboard structure remains familiar. This helps the drill-down feel like one continuous exploration rather than a completely different screen.
 
@@ -144,7 +144,7 @@ For example, when moving from clusters to namespaces, the content updates while 
 
 ## Data Fetching & Caching
 
-The project uses **TanStack Query** for server-state management.
+The project uses TanStack Query for server-state management.
 
 The query key includes the parameters that affect the allocation request:
 
@@ -230,7 +230,7 @@ The main token categories include:
 
 For example:
 
-```css
+```text
 --color-page
 --color-surface
 --color-text
@@ -474,6 +474,12 @@ Identify individual pods
 
 ## Author
 
-Built by **Amir** for the Atomity Frontend Engineering Challenge.
+Built by Amir for the Atomity Frontend Engineering Challenge.
 
-[GitHub Repository](https://github.com/amirkm07/atomity-frontend-challenge-test)
+**GitHub Repository:**
+https://github.com/amirkm07/atomity-frontend-challenge
+
+**Live Demo:**
+https://atomity-frontend-challenge-psi.vercel.app/
+**Email:**
+amirkmalv123@gmail.com
